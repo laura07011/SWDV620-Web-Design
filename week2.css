@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(211, 211, 211, 0.959);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 28px;
+    color:darkolivegreen;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color:darkolivegreen;
+}
+
+table, form {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body:link {
+    background-color:black;
+    color:white;
+    text-decoration: none;
+}

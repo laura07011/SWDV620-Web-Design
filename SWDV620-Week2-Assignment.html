@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Favorite things</title>
+        <meta charset="uft-8" />
+        <link href="week2.css" rel="stylesheet" />
+    </head>
+<body>
+    <h1>these are a few of my favorite things</h1>
+    
+<TABLE  BORDER="4">
+   <TR>
+      <TH COLSPAN="4" WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+         <H3><BR>Favorite Books</H3>
+      </TH>
+   </TR>
+      <TH bgcolor=gray align=left>Title</TH>
+      <TH bgcolor=gray align=left>Author</TH>
+      <TH bgcolor=gray align=left>Year</TH>
+      <TH bgcolor=gray align=left>Links</TH>
+   <TR>
+      <TD>Pride and Prejudice</TD>
+      <TD>Jane Austen</TD>
+      <TD>1813</TD>
+      <TD><a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice">Pride and Prejudice</a></TD>
+   </TR>
+   <TR>
+      <TD>Romeo and Juliet</TD>
+      <TD>Shakespeare</TD>
+      <TD>1597</TD>
+      <TD><a href="https://en.wikipedia.org/wiki/Romeo_and_Juliet">Romeo and Juliet</a></TD>
+   </TR>
+   <TR>
+      <TD>The Great Gatsby</TD>
+      <TD>F. Scott Fitzgerald</TD>
+      <TD>1925</TD>
+      <TD><a href="https://en.wikipedia.org/wiki/The_Great_Gatsby">The Great Gatsby</a></TD>
+   </TR>
+   <TR>
+      <TD>Wuthering Heights</TD>
+      <TD>Emily Bronte</TD>
+      <TD>1847</TD>
+      <TD><a href="https://en.wikipedia.org/wiki/Wuthering_Heights">Wuthering Heights</a></TD>
+   </TR>
+</TABLE>
+<h3>Comments</h3>
+<form method="post" action="submit.php">
+    <legend>What are some of your favorite books? Join the conversation below!</legend>
+    <br>
+    <br>
+    Username:
+    <input type="text" name="Username" required="required">
+    Password:
+    <input type="password" name="Password" required="required">
+    <br>
+    <br>
+    <!-- Comments -->
+    Comments:
+    <textarea name="Comments" id="Comments" rows="3" cols="45"></textarea>
+    <!-- Submit Comments -->
+    <input type="submit" class="formButton" value="Comment">
+    <!-- Clears form -->
+    <input type="reset" class="formButton" value="Clear">
+</form>
+</body>
+</html>
